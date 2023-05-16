@@ -51,10 +51,10 @@ if authentication_status:
     st.subheader('Realizado por: Camilo Diaz')
     st.markdown('##') #Para separar el titulo de los KPIs, se inserta un paragrafo usando un campo de markdown
     
-    archivo_excel = 'Portafolio Australia.xlsx' 
+    archivo_excel = 'Portafolio Australia.csv' 
     hoja_excel = 'Sheet1' 
 
-    df = pd.read_excel(archivo_excel,
+    df = pd.read_csv(archivo_excel,
                        sheet_name = hoja_excel,
                        usecols = 'A:I')
                        #header = 0
