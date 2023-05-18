@@ -13,7 +13,7 @@ import pickle
 from pathlib import Path
 
 import altair as alt
-
+import xlrd
 import streamlit_authenticator as stauth
 
 #Streamlit run Ventas.py
